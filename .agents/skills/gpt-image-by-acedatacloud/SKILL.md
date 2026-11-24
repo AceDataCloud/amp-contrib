@@ -17,7 +17,7 @@ This is an Ace Data Cloud integration, not an official GPT Image or Amp plugin e
 
 Requires Amp native Skill MCP support, an existing Amp login, and `ACEDATACLOUD_API_TOKEN` in the environment that starts Amp.
 
-Read [README.md](README.md) for installation, illustrated API-key setup, and troubleshooting.
+For application-token setup and troubleshooting, see the service guide in [English](https://github.com/AceDataCloud/Skills/blob/main/platforms/amp/skills/gpt-image-by-acedatacloud/README.md) or [简体中文](https://github.com/AceDataCloud/Skills/blob/main/platforms/amp/skills/gpt-image-by-acedatacloud/README.zh-CN.md).
 The sibling `mcp.json` connects only `gpt-image-ace` at `https://openai.mcp.acedata.cloud/mcp` and limits tools to this service.
 Reuse an existing matching connection; do not add a second server or alter unrelated settings.
 Keep the API key in `ACEDATACLOUD_API_TOKEN`; never request it in the conversation, put it in a command argument, or print it.
